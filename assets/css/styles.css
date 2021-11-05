@@ -649,8 +649,16 @@ the website, in dark theme
     display: inline-flex;
     align-items: center;
     column-gap: .5rem;  /* 8px */
+}
+
+.contact__description-link {
     color: var(--title-color);
     font-weight: var(--font-medium);
+    transition: .4s;
+}
+
+.contact__description-link:hover {
+    color: var(--first-color-light);
 }
 
 .contact__icon {
@@ -775,6 +783,11 @@ the website, in dark theme
 
 .footer__information {
     font-size: var(--small-font-size);
+}
+
+.footer__information-link {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
 }
 
 .footer__social {
